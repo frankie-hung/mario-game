@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Mario Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <div id="ui">
+      <span>SCORE: <span id="score">0</span></span>
+      <span>COINS: <span id="coins">0</span></span>
+      <span>LIVES: <span id="lives">3</span></span>
+    </div>
+    <div id="powerStatus"></div>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="instructions">🎮 Arrow Keys / WASD to Move | SPACE to Jump | X to Shoot Fireballs | Hit ? blocks for power-ups!</div>
+    <div id="gameOver">
+      <h2>GAME OVER</h2>
+      <p>Final Score: <span id="finalScore">0</span></p>
+      <button onclick="restartGame()">Play Again</button>
+    </div>
+    <div id="winScreen">
+      <h2>🎉 YOU WIN! 🎉</h2>
+      <p>Final Score: <span id="winScore">0</span></p>
+      <button onclick="restartGame()">Play Again</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

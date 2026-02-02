@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #5c94fc 0%,
+    #5c94fc 60%,
+    #8b4513 60%,
+    #8b4513 100%
+  );
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  overflow: hidden;
+}
+
+#gameContainer {
+  position: relative;
+}
+
+#gameCanvas {
+  border: 4px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 2px 0 #000;
+  z-index: 10;
+}
+
+#instructions {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+#gameOver,
+#winScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  z-index: 100;
+}
+
+#gameOver h2,
+#winScreen h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+button {
+  background: #e52521;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #ff3b30;
+}
+
+#powerStatus {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: white;
+  font-size: 12px;
+  text-shadow: 2px 2px 0 #000;
+  z-index: 10;
+}
