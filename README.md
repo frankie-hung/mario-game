@@ -4,6 +4,10 @@ A classic side-scrolling platformer game built with HTML5 Canvas and vanilla Jav
 
 ![Super Mario Game](https://img.shields.io/badge/Game-Super%20Mario-red) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
+## 🎮 Play Now
+
+**[👉 Play the game live here!](https://frankie-hung.github.io/mario-game/)**
+
 ## 🎮 Features
 
 - **Classic Platformer Gameplay**: Run, jump, and navigate through a side-scrolling level
@@ -41,7 +45,11 @@ A classic side-scrolling platformer game built with HTML5 Canvas and vanilla Jav
 
 No installation required! This game runs entirely in the browser using vanilla JavaScript.
 
-### Running the Game
+### Play Online
+
+**[Play the game directly in your browser](https://frankie-hung.github.io/mario-game/)** - No download required!
+
+### Running Locally
 
 1. Clone or download this repository
 2. Open `index.html` in your web browser
